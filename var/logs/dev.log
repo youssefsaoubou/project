@@ -10,3 +10,8 @@
 [2016-08-05 10:36:59] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2016-08-05 11:14:35] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
 [2016-08-05 11:14:36] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2016-08-05 11:48:01] php.DEBUG: fsockopen(): unable to connect to 127.0.0.1:8000 (Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée. ) {"type":2,"file":"D:\\project\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\FrameworkBundle\\Command\\ServerCommand.php","line":59,"level":28928} []
+[2016-08-05 11:48:20] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
+[2016-08-05 11:48:21] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2016-08-05 11:48:55] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
+[2016-08-05 11:48:55] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
