@@ -15,3 +15,5 @@
 [2016-08-05 11:48:21] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2016-08-05 11:48:55] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
 [2016-08-05 11:48:55] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2016-08-05 11:53:28] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
+[2016-08-05 11:53:28] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
