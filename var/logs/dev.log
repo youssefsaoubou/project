@@ -6,3 +6,7 @@
 [2016-08-05 10:32:22] php.DEBUG: fsockopen(): unable to connect to 127.0.0.1:8000 (Connection refused) {"type":2,"file":"/Users/mac/Desktop/project_online/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerCommand.php","line":59,"level":28928} []
 [2016-08-05 10:32:26] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
 [2016-08-05 10:32:26] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2016-08-05 10:36:59] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
+[2016-08-05 10:36:59] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2016-08-05 11:14:35] request.INFO: Matched route "{route}". {"route":"clien_homepage","route_parameters":{"_controller":"ClienBundle\\Controller\\DefaultController::indexAction","_route":"clien_homepage"},"request_uri":"http://localhost:8000/","method":"GET"} []
+[2016-08-05 11:14:36] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
