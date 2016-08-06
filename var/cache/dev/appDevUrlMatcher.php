@@ -100,15 +100,6 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // clien_homepage
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'clien_homepage');
-            }
-
-            return array (  '_controller' => 'ClienBundle\\Controller\\DefaultController::indexAction',  '_route' => 'clien_homepage',);
-        }
-
         // admin_homepage
         if (rtrim($pathinfo, '/') === '') {
             if (substr($pathinfo, -1) !== '/') {
@@ -116,6 +107,15 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             }
 
             return array (  '_controller' => 'AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'admin_homepage',);
+        }
+
+        // clien_homepage
+        if (rtrim($pathinfo, '/') === '') {
+            if (substr($pathinfo, -1) !== '/') {
+                return $this->redirect($pathinfo.'/', 'clien_homepage');
+            }
+
+            return array (  '_controller' => 'ClienBundle\\Controller\\DefaultController::indexAction',  '_route' => 'clien_homepage',);
         }
 
         // homepage

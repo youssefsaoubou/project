@@ -1,9 +1,9 @@
-clien:
-    resource: "@ClienBundle/Resources/config/routing.yml"
-    prefix:   /
-
 admin:
     resource: "@AdminBundle/Resources/config/routing.yml"
+    prefix:   /
+
+clien:
+    resource: "@ClienBundle/Resources/config/routing.yml"
     prefix:   /
 
 app:
