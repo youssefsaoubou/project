@@ -15,16 +15,19 @@ class __TwigTemplate_c873080f5ed559cc5dc5b330325b9a98b8c5fa2da85ca0db1a248dd59ec
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ae271fe9b6e46fdb5cd10cb7b73832374f609865584e06baccf43cbbf874476c = $this->env->getExtension("native_profiler");
-        $__internal_ae271fe9b6e46fdb5cd10cb7b73832374f609865584e06baccf43cbbf874476c->enter($__internal_ae271fe9b6e46fdb5cd10cb7b73832374f609865584e06baccf43cbbf874476c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "ClienBundle:Default:index.html.twig"));
+        $__internal_11dc77536bd5b84c122b1cc498a89fb6e2ddbbbfbaf6c9640db1990af49af231 = $this->env->getExtension("native_profiler");
+        $__internal_11dc77536bd5b84c122b1cc498a89fb6e2ddbbbfbaf6c9640db1990af49af231->enter($__internal_11dc77536bd5b84c122b1cc498a89fb6e2ddbbbfbaf6c9640db1990af49af231_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "ClienBundle:Default:index.html.twig"));
 
         // line 1
         echo "Hello 3wizz Test commit 2s
 
-Merci youssef
+
+
+Commite cette ligne
+safi ndir sync o + commit + sync 
 ";
         
-        $__internal_ae271fe9b6e46fdb5cd10cb7b73832374f609865584e06baccf43cbbf874476c->leave($__internal_ae271fe9b6e46fdb5cd10cb7b73832374f609865584e06baccf43cbbf874476c_prof);
+        $__internal_11dc77536bd5b84c122b1cc498a89fb6e2ddbbbfbaf6c9640db1990af49af231->leave($__internal_11dc77536bd5b84c122b1cc498a89fb6e2ddbbbfbaf6c9640db1990af49af231_prof);
 
     }
 
@@ -40,5 +43,8 @@ Merci youssef
 }
 /* Hello 3wizz Test commit 2s*/
 /* */
-/* Merci youssef*/
+/* */
+/* */
+/* Commite cette ligne*/
+/* safi ndir sync o + commit + sync */
 /* */
