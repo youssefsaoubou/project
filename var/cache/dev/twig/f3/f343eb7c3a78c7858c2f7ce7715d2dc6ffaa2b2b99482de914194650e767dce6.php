@@ -15,8 +15,8 @@ class __TwigTemplate_1058e66c8e0a17e77fa1a39fc0d6397e47e2db9794536b65825611f7013
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5a51a8d3b4aa7f7e20c657bc6cc23257e290932845675af5639bdd686443662d = $this->env->getExtension("native_profiler");
-        $__internal_5a51a8d3b4aa7f7e20c657bc6cc23257e290932845675af5639bdd686443662d->enter($__internal_5a51a8d3b4aa7f7e20c657bc6cc23257e290932845675af5639bdd686443662d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle::menu.html.twig"));
+        $__internal_98985383d6e070fc35be1fd127416db6c46069594852689e1114fe3a49cce7d4 = $this->env->getExtension("native_profiler");
+        $__internal_98985383d6e070fc35be1fd127416db6c46069594852689e1114fe3a49cce7d4->enter($__internal_98985383d6e070fc35be1fd127416db6c46069594852689e1114fe3a49cce7d4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle::menu.html.twig"));
 
         // line 1
         echo "      <div class=\"col-md-3 left_col\">
@@ -125,7 +125,7 @@ class __TwigTemplate_1058e66c8e0a17e77fa1a39fc0d6397e47e2db9794536b65825611f7013
             <!-- /menu footer buttons -->
         ";
         
-        $__internal_5a51a8d3b4aa7f7e20c657bc6cc23257e290932845675af5639bdd686443662d->leave($__internal_5a51a8d3b4aa7f7e20c657bc6cc23257e290932845675af5639bdd686443662d_prof);
+        $__internal_98985383d6e070fc35be1fd127416db6c46069594852689e1114fe3a49cce7d4->leave($__internal_98985383d6e070fc35be1fd127416db6c46069594852689e1114fe3a49cce7d4_prof);
 
     }
 

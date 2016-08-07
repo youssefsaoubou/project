@@ -100,13 +100,17 @@ class appDevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
 
         }
 
-        // admin_homepage
-        if (rtrim($pathinfo, '/') === '') {
-            if (substr($pathinfo, -1) !== '/') {
-                return $this->redirect($pathinfo.'/', 'admin_homepage');
+        if (0 === strpos($pathinfo, '/admin')) {
+            // admin_homepage
+            if ($pathinfo === '/admin') {
+                return array (  '_controller' => 'AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'admin_homepage',);
             }
 
-            return array (  '_controller' => 'AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'admin_homepage',);
+            // admin_clients
+            if ($pathinfo === '/admin/clients') {
+                return array (  '_controller' => 'AdminBundle\\Controller\\DefaultController::clientsAction',  '_route' => 'admin_clients',);
+            }
+
         }
 
         // clien_homepage
